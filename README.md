@@ -21,5 +21,13 @@ Para configurar el .gitignore se utilizan algunos de los siguientes patrones:
 
 - El patrón "foo/*", coincide con "foo/test.json" (un archivo normal), "foo/bar" (un directorio), pero no coincide con "foo/bar/hello.c" (un archivo normal ), ya que el asterisco en el patrón no coincide con "bar/hello.c", que tiene una barra inclinada.
 
-### -Incluya en su repositorio una regla de cómo ignorar un archivo ignorado.txt
+## 3c)Revise los archivos subidos en su repositorio de github <br>
+
+### ¿Qué archivos vé? <br>
+- .gitignore
+- README.md
+- tp1_1.cpp
+- tp1_1.exe
+### ¿Cuál cree que no hace falta que esté? <br>
+- tp1_1.exe
 
