@@ -2,8 +2,7 @@
 
 Repaso de punteros.
 
-## 2a)Investigar el archivo .gitignore: 
-<br>
+## 2a)Investigar el archivo .gitignore: <br>
 
 ### ¿Por qué es conveniente incluirlo? <br>
  Para cuando el desarrollador desee excluir determinados archivos en el control de versiones.
@@ -31,3 +30,13 @@ Para configurar el .gitignore se utilizan algunos de los siguientes patrones:
 ### ¿Cuál cree que no hace falta que esté? <br>
 - tp1_1.exe
 
+## 3g)Si resolvió correctamente los apartados 2 y 3 del punto anterior notará que el resultado es el mismo <br>
+
+### ¿A qué se debe? <br>
+Se debe a que en ambos apartados utilizamos el operador %p para imprimir la dirección de memoria y el puntero almacena la direccion de memoria del mismo dato por eso el resultado es el mismo
+### ¿Qué obtiene en el punto 4? <br>
+La dirección de memoria de la variable puntero
+### ¿Es igual a los anteriores? <br>
+No
+### ¿Por qué? <br>
+Porque la dirección de memoria del puntero tiene un espacio de memoria propio
